@@ -1,4 +1,4 @@
-/* Subway Founders: Chile. Cabinet mappings are preserved from the challenge starter. */
+/* Token Apocalypse: Chile. Cabinet mappings are preserved from the challenge starter. */
 const CABINET_KEYS = {
   P1_U: ['w'],
   P1_D: ['s'],
@@ -1634,8 +1634,8 @@ function paintNature(g, kind, frame = 0) {
     if (phase === 'title') {
       menuPanel(150, 280);
       text(ctx, 'ATACAMA  →  PUNTA ARENAS', 400, 177, 16, UI_GOLD);
-      text(ctx, 'SUBWAY', 400, 218, 46, CREAM, 900);
-      text(ctx, 'FOUNDERS', 400, 260, 46, CREAM, 900);
+      text(ctx, 'TOKEN', 400, 218, 46, CREAM, 900);
+      text(ctx, 'APOCALYPSE', 400, 260, 40, CREAM, 900);
       text(ctx, 'A / D  MOVER   ·   W / U  SALTO   ·   S  BAJAR', 400, 303, 16, CREAM);
       text(ctx, 'WHOOSH ×2 VELOCIDAD, PROTEGE 1 CHOQUE', 400, 326, 16, CREAM);
       actionButton('ENTER  PARA CORRER', 369);
@@ -1881,7 +1881,7 @@ const game = new Phaser.Game({
       const focus = () => { window.focus(); audio.unlock(); };
       this.game.canvas.addEventListener('pointerdown', focus);
       this.game.canvas.tabIndex = 0;
-      this.game.canvas.setAttribute('aria-label', 'Subway Founders Chile. Enter starts. A and D change lanes. W or U jumps. S descends in air or slides on ground. Each token awards 250000.');
+      this.game.canvas.setAttribute('aria-label', 'Token Apocalypse Chile. Enter starts. A and D change lanes. W or U jumps. S descends in air or slides on ground. Each token awards 250000.');
       this.events.once('shutdown', () => {
         input.dispose();
         presentation.dispose();
