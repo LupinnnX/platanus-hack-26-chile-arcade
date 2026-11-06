@@ -1,5 +1,5 @@
 {
-  "game_name": "Platanus Hack: Santiago Brick Breaker",
-  "description": "Batalla campal por romper la mayor cantidad de ladrillos",
-  "player_mode": "two_player"
+  "game_name": "Subway Founders: Chile",
+  "description": "Corre de Atacama a Punta Arenas. Cada moneda suma 250.000 tokens. Salta y pulsa S para bajar rápido. La velocidad sigue subiendo y Whoosh la duplica hasta que chocas.",
+  "player_mode": "single_player"
 }
